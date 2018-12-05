@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    width: 100%;
+    padding-left: 0;
+}
+
+li {
+    display: inline;
+    text-align: center;
+}
+
+a {
+    display: inline-block;
+    width: 24.75%;
+    padding: .75rem 0;
+    margin: 0;
+    text-decoration: none;
+    color: #333;
+}
+
+.skills:hover ~ hr {
+    margin-left: 25%;
+}
+
+.projects:hover ~ hr {
+    margin-left: 50%;
+}
+
+.contact:hover ~ hr {
+    margin-left: 75%;
+}
+
+hr {
+    height: .25rem;
+    width: 25%;
+    margin: 0;
+    background: #00bb00;
+    border: none;
+    transition: .5s ease-in-out;
+}
